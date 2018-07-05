@@ -1,0 +1,60 @@
+body{
+  height:100vh;
+  width:100vw;
+  background-color:;
+  display:block;
+
+
+}
+.text{
+  font-family:happy monkey;
+  font-size:40px;
+  font-color:white;
+}
+.head{
+  text-decoration: underline;
+}
+.hover:hover {
+	box-shadow: 0px 0px 150px #000;
+	z-index: 2;
+	-ms-transition: all 200ms ease-in;
+	-ms-transform: scale(1.01);
+	-moz-transition: all 200ms ease-in;
+	-moz-transform: scale(1.01);
+	transition: all 200ms ease-in;
+	transform: scale(1.01);
+	overflow: visible;
+	cursor: pointer;
+}
+
+.box:active {
+	transform: scale(0.99, 0.99);
+}
+
+.col-1{
+  height:50vh;
+  width:50vw;
+  display:block;
+  background-repeat: no-repeat;
+
+}
+.red {
+  background-image:url("netflix.png");
+
+}
+.blue {
+  background-color:blue;
+  background-image:url("food.jpg");
+}
+.purple{
+  background-color:purple;
+  background-image:url("music.png");
+}
+.orange {
+  background-color:orange;
+  background-image:url("hobbies.jpg");
+}
+.yellow {
+  background-color:yellow;
+  background-image:url("softball.jpg");
+}
